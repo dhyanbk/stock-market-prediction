@@ -1,0 +1,38 @@
+/* Using a clean, professional font */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* --- THIS IS THE NEW CODE FOR THE SCROLLBAR --- */
+/* This makes the navigation area scrollable if the content is too tall */
+#company-list {
+    overflow-y: auto;
+}
+
+/* Customizing the scrollbar to match the dark theme */
+#company-list::-webkit-scrollbar {
+    width: 8px;
+}
+#company-list::-webkit-scrollbar-track {
+    background: transparent;
+}
+#company-list::-webkit-scrollbar-thumb {
+    background: #4B5563;
+    border-radius: 4px;
+}
+#company-list::-webkit-scrollbar-thumb:hover {
+    background: #6B7280;
+}
+/* ------------------------------------------- */
+
+/* Custom class for the active link in the sidebar */
+.sidebar-link.active {
+    background-color: #2563EB;
+    color: white;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+/* Class to show the sidebar on mobile */
+#sidebar.show {
+    transform: translateX(0);
+}
