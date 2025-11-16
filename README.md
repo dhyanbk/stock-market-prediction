@@ -86,8 +86,7 @@ Frontend (`index.html`, `script.js`, `style.css`) calls the API and can visualiz
   
   ▶️ Run the API
   
-    Copy code
-    python app.py
+   
     The server starts at http://localhost:5000.
     
     🔌 API
