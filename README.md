@@ -137,6 +137,15 @@ Frontend (`index.html`, `script.js`, `style.css`) calls the API and can visualiz
   Render/Heroku/Fly.io: run python app.py (expose port 5000).
   
   Make sure stock_predictor_model.h5 is included in the deployment, or retrain on the server.
+  
+  <h2 align="center">📈 Model Output Comparison</h2>
+
+<p align="center">
+  <img src="./output1.jpg" alt="Stock Prediction Output 1" width="45%"/>
+  &nbsp;&nbsp;
+  <img src="./output2.jpg" alt="Stock Prediction Output 2" width="45%"/>
+</p>
+
 
 ⚠️ Disclaimer
 
